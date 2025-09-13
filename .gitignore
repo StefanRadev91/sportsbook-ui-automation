@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.env.*
+
+# Pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage*
+
+# Playwright
+playwright-report/
+test-results/
+.playwright/
+*.zip
+
+# VS Code
+.vscode/
+.history/
