@@ -1,5 +1,5 @@
 import re
-from playwright.sync_api import Page, expect
+from playwright.sync_api import expect
 from pages.base_page import BasePage
 
 class LivePage(BasePage):
