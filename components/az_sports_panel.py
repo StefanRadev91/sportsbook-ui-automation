@@ -1,10 +1,8 @@
-from playwright.sync_api import Page, expect
+from playwright.sync_api import expect
 from pages.base_page import BasePage
 import re
 
 class AZSportsPanel(BasePage):
-    def __init__(self, page: Page):
-        super().__init__(page)
 
     @property
     def cookies_banner(self):
